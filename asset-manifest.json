@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Bla-bla-Test/static/css/main.0d3d6bd8.css",
+    "main.js": "/Bla-bla-Test/static/js/main.3953a2a5.js",
+    "static/media/ava-3.png": "/Bla-bla-Test/static/media/ava-3.406652b6744ce03f31cc.png",
+    "static/media/ava-1.png": "/Bla-bla-Test/static/media/ava-1.3d9afe69301af1224944.png",
+    "static/media/ava-2.png": "/Bla-bla-Test/static/media/ava-2.7828d75abc0125cb5265.png",
+    "static/media/Lato-Italic.woff": "/Bla-bla-Test/static/media/Lato-Italic.d0b3d043983e08bed74d.woff",
+    "static/media/Lato-Bold.woff": "/Bla-bla-Test/static/media/Lato-Bold.4b35a8ac65a69832ec09.woff",
+    "static/media/Lato-Regular.woff": "/Bla-bla-Test/static/media/Lato-Regular.39517281aedab52a4e3d.woff",
+    "static/media/Lato-Light.woff": "/Bla-bla-Test/static/media/Lato-Light.6e4edb404e8b160cb5dd.woff",
+    "static/media/fa-solid-900.ttf": "/Bla-bla-Test/static/media/fa-solid-900.79da213423ac0def2058.ttf",
+    "static/media/jumbotron.jpg": "/Bla-bla-Test/static/media/jumbotron.aa748897a47f287d0162.jpg",
+    "static/media/fa-brands-400.ttf": "/Bla-bla-Test/static/media/fa-brands-400.0a1b701f5563c2288281.ttf",
+    "static/media/fa-solid-900.woff2": "/Bla-bla-Test/static/media/fa-solid-900.4896d4b04430cc3dfb06.woff2",
+    "static/media/fa-brands-400.woff2": "/Bla-bla-Test/static/media/fa-brands-400.f77bcc98bb7468c8b15a.woff2",
+    "static/media/fa-regular-400.ttf": "/Bla-bla-Test/static/media/fa-regular-400.15d98c18221c8bcb2334.ttf",
+    "static/media/fa-regular-400.woff2": "/Bla-bla-Test/static/media/fa-regular-400.d79c2ec96ab9ff1161a2.woff2",
+    "static/media/b-logo.svg": "/Bla-bla-Test/static/media/b-logo.976bc986527ec20646f353b12e893b71.svg",
+    "static/media/safari.png": "/Bla-bla-Test/static/media/safari.496546f89e98de21c1fe.png",
+    "static/media/foto.png": "/Bla-bla-Test/static/media/foto.f0605f1d4c42ceb7b51c.png",
+    "static/media/bubbles.png": "/Bla-bla-Test/static/media/bubbles.077b28d8aca16596470b.png",
+    "static/media/settings.png": "/Bla-bla-Test/static/media/settings.39debd1b5744f3599e7b.png",
+    "static/media/icomoon.svg?stjrzq": "/Bla-bla-Test/static/media/icomoon.bbfbb558d19fe0d11b5a.svg",
+    "static/media/icomoon.eot?stjrzq": "/Bla-bla-Test/static/media/icomoon.3e6b16fb8f4f4ce5075f.eot",
+    "static/media/icomoon.woff?stjrzq": "/Bla-bla-Test/static/media/icomoon.2df9db126405c38c1371.woff",
+    "static/media/icomoon.ttf?stjrzq": "/Bla-bla-Test/static/media/icomoon.aeffc2dfb5160897bcd0.ttf",
+    "index.html": "/Bla-bla-Test/index.html",
+    "main.0d3d6bd8.css.map": "/Bla-bla-Test/static/css/main.0d3d6bd8.css.map",
+    "main.3953a2a5.js.map": "/Bla-bla-Test/static/js/main.3953a2a5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d3d6bd8.css",
+    "static/js/main.3953a2a5.js"
+  ]
+}
