@@ -32,24 +32,36 @@
 	font-size: 14px;
 	line-height: 17px;
 	color: #999999;
+	width: 100%;
 
 	
 	.form__contacts{
 		display: flex;
 		column-gap: 16px;
 		margin-bottom: 20px;
-		@media (max-width: 767px) {
+		justify-content: space-between;
+		@media (max-width: 745px) {
+			margin: 0 20px 20px;
+		}
+		@media (max-width: 500px) {
 			flex-direction: column;
 			row-gap: 20px;
 			align-items: center;
+			margin: 0 30px 20px;
 		}
 	}
 
 	.form__name{
-		width: 200px;
+		min-width: 180px;
 		min-height: 46px;
 		padding: 0 0 0 20px;
 		border: 2px solid #BEC3C7;
+		@media (max-width: 950px) {
+			min-width: none;
+		}
+		@media (max-width: 767px) {
+			width: 100%;
+		}
 	}
 
 	.form__text{
@@ -89,6 +101,12 @@
 	.map__container{
 		width: 456px;
 		height: 265px;
+		@media (max-width: 767px) {
+			width: calc(100% - 10px);
+		}
+	}
+	@media (max-width: 767px) {
+		margin: 20px 20px 0;
 	}
 }
 

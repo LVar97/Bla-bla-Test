@@ -6,7 +6,7 @@ import ava3 from "../../../image/ava-3.png";
 
 export const About: React.FC = () => {
 	return (
-		<section className="about">
+		<section className="about" id="about">
 			<h2 className="about__title title">About Us</h2>
 			<p className="about__subtitle subtitle">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
 			<div className="profile">
