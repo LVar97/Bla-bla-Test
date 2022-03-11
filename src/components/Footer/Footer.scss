@@ -1,0 +1,56 @@
+@import "../../styles/variables.scss";
+
+.footer{
+	background: #2D3E50;
+	width: 100%;
+	min-height: 93px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.footer__copyright{
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 17px;
+		color: $light-color;
+		margin: 0;
+		@media (min-width: 767px){
+			font-size: 16px;
+			line-height: 19px;
+		}
+	}
+
+	.footer__button{
+		display: none;
+		
+		@media (min-width: 767px) {
+			display: block;
+			width: 44px;
+			height: 44px;
+			background-color: $active-color;
+			border: none;
+			color: $light-color;
+			font-size: 20px;
+		}
+	}
+}
+
+.container{
+  max-width: 920px;
+  display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex: .8 1 50%;
+	margin: 0 auto;
+	@media (max-width: 1379px){
+		max-width: 920px;
+	}
+	@media (max-width: 992px){
+		max-width: 750px;
+	}
+	@media (max-width: 767px){
+		max-width: none;
+		justify-content: center;
+		text-align: center;
+	}
+}

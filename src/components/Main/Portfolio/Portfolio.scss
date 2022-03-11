@@ -1,0 +1,168 @@
+@import "../../../styles/variables.scss";
+
+.portfolio{
+	
+	padding: 52px 0 62px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	@media (max-width: 767px) {
+		padding: 32px 0 32px;
+	}
+
+
+	.portfolio__title{
+		font-size: 28px;
+	}
+
+	.portfolio__subtitle{
+		font-size: 16px;
+		margin: 18px 0 38px;
+		@media (max-width: 767px) {
+			margin: 18px 0 28px;
+		}
+	}
+
+	.portfolio__filters{
+		margin: 0 auto 60px;
+		min-height: 39px;
+		display: flex;
+		flex-wrap: wrap;
+		list-style-type: none;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+		@media (max-width: 767px){
+			margin: 0 20px 30px;
+			row-gap: 40px;
+		}
+	}
+
+	.portfolio__filters > li:last-of-type > a {
+		margin-right: 0;
+	}
+
+
+	.portfolio__filter{
+		font-size: 13px;
+		letter-spacing: 1px;
+		color: $light-color;
+		font-weight: 700;
+		text-align: center;
+		padding: 12px 8px;
+		margin-right: 15px;
+		background-color: $active-color;
+	}
+
+}
+
+.content{
+	max-width: 920px;
+	flex: .8 1 50%;
+	margin: 0 auto;
+	@media (max-width: 1379px){
+		max-width: 920px;
+	}
+	@media (max-width: 992px){
+		max-width: 750px;
+	}
+	@media (max-width: 767px){
+		max-width: none;
+		justify-content: center;
+		text-align: center;
+	}
+}
+
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	row-gap: 35px;
+	column-gap: 68px;
+	list-style-type: none;
+	padding: 0;
+	@media (max-width: 790px){
+		margin: 0 20px;
+	}
+	@media (max-width: 7120px){
+		justify-content: center;
+		row-gap: 25px;
+		column-gap: 48px;
+	}
+}
+
+.card{
+	border-radius: 50%;
+	width: 177px;
+	height: 180px;
+	position: relative;
+	@media (max-width: 767px){
+		width: 108px;
+		height: 110px;
+	}
+
+	.card__link{
+		width: 100%;
+	}
+	
+	span {
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+		display: none;
+	}
+
+	&:hover span{
+		display: block;
+		color: $light-color;
+		cursor: pointer;
+		background-color: rgba($active-color, .7);
+	}
+}
+
+
+.fa-magnifying-glass::before{
+	display: none;
+	position: absolute;
+	top: calc(50% - 25px);
+	left: calc(50% - 20px);
+	background-color: $primary-color;
+	border-radius: 23px;
+	padding: 12px;
+	opacity: .7;
+}
+
+.card:hover .fa-magnifying-glass::before{
+	display: block;
+}
+
+.card_foto{
+	background-image: url('../../../image/foto.png');
+	background-size: cover;
+}
+
+.card_music{
+	background-image: url('../../../image/music.png');
+	background-size: cover;
+}
+
+.card_settings{
+	background-image: url('../../../image/settings.png');
+	background-size: cover;
+}
+
+.card_safari{
+	background-image: url('../../../image/safari.png');
+	background-size: cover;
+}
+
+.card_phone{
+	background-image: url('../../../image/phone.png');
+	background-size: cover;
+}
+
+.card_bubbles{
+	background-image: url('../../../image/bubbles.png');
+	background-size: cover;
+}

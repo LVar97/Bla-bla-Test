@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.main{
+	width: 100%;
+}
+
+.title,
+.subtitle{
+	color: $primary-color;
+	text-align: center;
+	font-weight: 400;
+	margin: 0;
+}
+
+.title{
+	font-size: 28px;
+	line-height: 34px;
+	@media (max-width: 767px) {
+		font-size: 32px;
+		line-height: 36px;
+	}
+}
+
+.subtitle{
+	font-size: 14px;
+	line-height: 17px;
+	@media (max-width: 767px) {
+		font-size: 16px;
+		line-height: 20px;
+	}
+}
